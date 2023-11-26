@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <h2 className="main-h2"> wazzaaap</h2>
+        <h2 className="main-h2">Generate Password</h2>
 
         <div className="card">
           <input
