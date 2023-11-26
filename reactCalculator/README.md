@@ -1,3 +1,5 @@
+# Do not forget to write "npm i" in terminal for missing modules via nodejs
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
