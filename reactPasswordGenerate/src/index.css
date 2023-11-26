@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&family=Oswald:wght@300&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto+Mono:ital,wght@1,300&family=Sometype+Mono:wght@500&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: 'Sometype Mono', monospace;
+  letter-spacing: 0.1em;
+}
+
+body {
+    background-color: #253319;
+    height: auto;
+  }
