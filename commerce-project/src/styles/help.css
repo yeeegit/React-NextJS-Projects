@@ -1,0 +1,89 @@
+.help-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.help-sidebar {
+  width: 13rem;
+  padding: 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+}
+
+.help-sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.help-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.help-sidebar li {
+  margin-bottom: 1rem;
+}
+
+.help-sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0rem;
+  transition: all 0.3s;
+  border-bottom: 1px solid #111130;
+}
+
+.help-sidebar a:hover {
+  background-color: #ddd;
+  border-radius: 0.5rem;
+}
+
+.help-content {
+  flex: 1;
+  padding: 1rem;
+  background-color: #eeeeee;
+  border-radius: 1rem;
+  max-width: calc(3 * 13rem);
+}
+
+.help-content h1 {
+  border: 2px solid #333;
+  text-align: center;
+  width: 100%;
+  min-width: fit-content;
+}
+
+.faq-item {
+  width: calc(100% - 1rem);
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+}
+
+.toggle {
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  align-items: center;
+  color: #111130;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.faq-item .content {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  max-width: 30rem;
+  margin-top: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+}

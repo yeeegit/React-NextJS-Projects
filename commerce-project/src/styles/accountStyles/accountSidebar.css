@@ -1,0 +1,41 @@
+.sidebar {
+  display: inline-block;
+  margin: 2.5rem 0 0 0;
+  border: 1px solid #000;
+  border-radius: 0.9rem;
+  height: fit-content;
+  padding: 1rem;
+}
+
+.sidebar .section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar .section h4 {
+  margin-bottom: 0.75rem;
+}
+
+.sidebar .section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar .section li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar .section .links {
+  text-align: center;
+  width: 9rem;
+  text-decoration: none;
+  color: #000;
+  padding: 0.2rem;
+  border: 1px solid #ddd;
+  display: inline-block;
+  border-radius: 0.3rem;
+  transition: 0.3s all;
+}
+
+.sidebar .section .links:hover {
+  background-color: #ddd;
+}

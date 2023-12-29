@@ -1,0 +1,23 @@
+.main-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2.5rem;
+  background-color: rgb(230, 230, 230);
+  letter-spacing: 1px;
+}
+
+.main-about .about-texts h2 {
+  text-align: center;
+}
+
+.main-about .about-texts {
+  margin: 0 10rem;
+}
+
+@media screen and (max-width: 500px) {
+  .main-about .about-texts {
+    margin: 0 1rem;
+  }
+}

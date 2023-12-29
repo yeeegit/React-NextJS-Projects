@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Source+Code+Pro&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #325223b9;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #444444;
+}
+
+.links {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.3rem;
+  transition: 0.3s all;
+  padding: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+@media screen and (max-width: 500px) {
+  
+  *{
+    max-width: 100dvw;
+    font-size: 1rem;
+  }
+  .help-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .help-sidebar {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .home .main-text {
+    margin: auto 1.2em;
+  }
+  .links {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.3rem;
+    transition: 0.3s all;
+    padding: 0.3rem;
+    margin-right: 0.3rem;
+  }
+  
+  .home-nav .links:hover {
+    background-color: #ddd;
+  }
+}

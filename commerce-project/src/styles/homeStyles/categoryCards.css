@@ -1,0 +1,107 @@
+.products-wrapper {
+  height: fit-content;
+  background-color: #717571;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.93'%3E%3Ccircle fill='%23717571' cx='50' cy='0' r='50'/%3E%3Cg fill='%23777b77' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%237e817d' cx='50' cy='100' r='50'/%3E%3Cg fill='%23858782' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%238b8e88' cx='50' cy='200' r='50'/%3E%3Cg fill='%2392948e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23999a94' cx='50' cy='300' r='50'/%3E%3Cg fill='%23a0a09a' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a7a7a1' cx='50' cy='400' r='50'/%3E%3Cg fill='%23aeada7' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b5b4ad' cx='50' cy='500' r='50'/%3E%3Cg fill='%23bcbab4' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c3c1ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%23cbc7c1' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23d2cec7' cx='50' cy='700' r='50'/%3E%3Cg fill='%23dad4ce' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23e1dbd5' cx='50' cy='800' r='50'/%3E%3Cg fill='%23e8e2dc' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23f0e8e3' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f7efea' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23FFF6F1' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+.product-card {
+  border: 1.5px solid #9672721e;
+  background-color: #dfdfdfa9;
+  box-shadow: 5px 10px 8px 1px #00000048;
+  border-radius: 3rem 1rem;
+  height: 25rem;
+  width: 24rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.product-card:hover {
+  border: 1.5px solid transparent;
+  transform: scale(1.05);
+  border-radius: 1rem 3rem;
+  background-color: #dfdfdf;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rem;
+  padding: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+.product-card .categoryLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b42121e5;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-radius: 0.2rem;
+  background-color: rgba(151, 20, 21, 0.1);
+}
+.product-card .categoryLink span {
+  margin-left: 0.7rem;
+}
+
+.product-card .product-text-wrapper {
+  margin: auto;
+  margin-top: 0.3rem;
+}
+.product-card .product-image {
+  max-height: 18rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: fit-content;
+  max-width: 20rem;
+  object-fit: scale-down;
+}
+.product-list .product-card {
+  padding-bottom: 0.8rem;
+}
+.product-list .product-card p {
+  font-size: 20px;
+  color: rgb(3, 151, 3);
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.product-list .product-card span {
+  padding: 0.75rem;
+  color: #333333;
+  font-weight: 500;
+}
+@media (max-width: 560px) {
+  .products-wrapper {
+    background-size: cover;
+  }
+
+  .product-card {
+    width: 100%;
+    margin-bottom: 2rem;
+    height: fit-content;
+  }
+
+  .product-list {
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .product-card .product-image {
+    max-height: 10rem;
+  }
+
+  .product-list .product-card p {
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+
+  .product-card .categoryLink {
+    font-size: 0.8rem;
+  }
+
+  .product-card .product-text-wrapper {
+    margin-top: 0.2rem;
+  }
+}

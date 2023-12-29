@@ -1,0 +1,214 @@
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-page {
+  min-height: 100vh;
+  height: fit-content;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.all-infos {
+  padding-bottom: 1.5rem;
+}
+
+/* ORDER SECTION CSS */
+/* ORDER SECTION CSS */
+.account-page .all-infos .orders h3 {
+  margin-top: 2.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 3px solid #000;
+  padding: 0.5rem 2rem;
+}
+.account-page .all-infos .my-orders {
+  height: fit-content;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px rgb(8, 8, 8) solid;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: fit-content;
+  max-width: 40rem;
+}
+
+/* ORDER SECTION CSS */
+/* ORDER SECTION CSS */
+
+/* REVIEWS SECTION CSS */
+/* REVIEWS SECTION CSS */
+
+.reviews h3 {
+  border: 2.5px solid #000;
+  border-radius: 0.3rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.reviews .order-card {
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.order-card img {
+  height: 7rem;
+}
+.order-card .order-infos {
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  border-bottom: 1px solid #000;
+}
+.review-button {
+  margin-top: 1rem;
+}
+.review-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.review-btn:hover {
+  background-color: #2980b9;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #e7e7e7;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-content input,
+.modal-content textarea {
+  width: 100%;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+}
+
+.modal-content textarea {
+  min-height: 8rem;
+  resize: none;
+}
+
+.modal-content button {
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+  background-color: #2980b9;
+}
+
+.modal-content button:active {
+  background-color: #1f618d;
+}
+
+/* REVIEWS SECTION CSS */
+/* REVIEWS SECTION CSS */
+
+/* SETTINGS SECTION CSS */
+/* SETTINGS SECTION CSS */
+/* SETTINGS SECTION CSS */
+
+.all-infos .settings {
+  margin-top: 2.5rem;
+  background-color: #f8f9fa;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 10px;
+  width: 100%;
+  max-width: 50rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  border: 1.5px solid #000000c4;
+}
+.settings .account-settings {
+  display: flex;
+  flex-direction: column;
+}
+.settings .account-settings .account-inputs {
+  margin-bottom: 1rem;
+}
+.account-settings label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.account-settings input {
+  padding: 10px 20px;
+  background-color: rgba(219, 165, 15, 0.9);
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.account-settings button {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.account-settings button:hover {
+  background-color: rgb(45, 120, 45);
+}
+.account-settings button:active {
+  background-color: rgb(66, 68, 66);
+}
+
+/* SETTINGS SECTION CSS */
+/* SETTINGS SECTION CSS */
+/* SETTINGS SECTION CSS */
