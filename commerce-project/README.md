@@ -4,7 +4,7 @@
   react-router-dom used for handling routing 
   used "https://dummyjson.com" and "https://fakestoreapi.com" for data fetching 
 
-live demo = "https://e-commerce-react-e9v4.vercel.app"
+live demo = "https://commerceapp-lovat.vercel.app"
  how to check it out via nodejs
  
   1- git clone https://github.com/latids/E-Commerce-React.git
