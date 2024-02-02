@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  max-width: 30rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+  margin: 2rem auto;
+  background-color: #2d2d2d;
+  color: #e5ff00;
+}
+
+.main-h2 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.passInput {
+  outline: none;
+  width: 100%;
+  padding: 1.2rem 1rem;
+}
+
+.copy-button {
+  outline: none;
+  background-color: #435d1a;
+  color: #ffffff;
+  padding: 0.15rem 1rem;
+  flex-shrink: 0;
+}
+
+.check-field {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+.input-check {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.pass-length {
+  cursor: pointer;
+  width: 100%;
+  margin: 0.5rem 0;
+  filter:grayscale(0.75);
+}
