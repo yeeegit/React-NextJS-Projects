@@ -1,0 +1,90 @@
+.help-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .help-sidebar {
+    width: 13rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #f0f0f0;
+  }
+  
+  .help-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .help-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .help-sidebar li {
+    margin-bottom: 1rem;
+  }
+  
+  .help-sidebar a {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0rem;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: #333;
+    border-bottom: 1px solid #111130;
+  }
+  
+  .help-sidebar a:hover {
+    border-radius: 0.5rem;
+    background-color: #ddd;
+  }
+  
+  .help-content {
+    flex: 1;
+    padding: 1rem;
+    background-color: #eeeeee;
+    border-radius: 1rem;
+    max-width: calc(3 * 13rem);
+  }
+  
+  .help-content h1 {
+    width: 100%;
+    border: 2px solid #333;
+    text-align: center;
+    min-width: fit-content;
+  }
+  
+  .faq-item {
+    width: calc(100% - 1rem);
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .toggle {
+    width: 100%;
+    max-width: 30rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #111130;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .faq-item .content {
+    max-width: 30rem;
+    position: relative;
+    margin-top: 0.8rem;
+    transition: all 0.5s;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    overflow: hidden;
+  }
+  

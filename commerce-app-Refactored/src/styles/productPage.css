@@ -1,0 +1,143 @@
+.product-page {
+    width: 100%;
+    min-height: 50vh;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #f0e8e8;
+  }
+  
+  .product-image {
+    min-width: 5rem;
+    min-height: 5rem;
+    width: 25rem;
+    height: fit-content;
+    object-fit: contain;
+    border: #c4bebe 1px solid;
+    border-radius: 0.3rem;
+    overflow: hidden;
+  }
+  
+  .product-info {
+    min-width: 8rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .product-info h3 {
+    font-size: 1.6rem;
+    color: rgb(97, 97, 97);
+  }
+  
+  .product-info p {
+    font-weight: lighter;
+    line-height: 1.5;
+    color: rgba(37, 37, 37, 0.9);
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .product-rating {
+    font-size: 1.2rem;
+    color: #302f00;
+  }
+  
+  .product-stock {
+    font-size: 1.2rem;
+    color: #d10a0a;
+  }
+  
+  .add-to-cart button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  
+    &:active {
+      background: #000;
+    }
+  }
+  
+  .image-container {
+    height: fit-content;
+    width: 25rem;
+    margin: 1rem 1.2rem;
+    position: relative;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .thumbnail {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: 1.5px solid #c4bebe;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 560px) {
+    .product-page {
+      flex-direction: column;
+    }
+  
+    .product-image {
+      min-height: 15rem;
+      height: 10rem;
+      width: 100%;
+      padding: 0;
+      margin: 1rem 0;
+    }
+  
+    .product-info {
+      width: 100%;
+    }
+  
+    .image-container, .thumbnail-container {
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .thumbnail-container {
+      justify-content: center;
+      gap: 0.5rem; 
+      margin: 0.5rem 0; 
+    }
+  
+    .thumbnail {
+      height: 4rem;
+      width: 4rem;
+      border: 1px solid #c4bebe;
+      border-radius: 0.8rem; 
+    }
+  
+    .add-to-cart button {
+      padding: 0.8rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }  
